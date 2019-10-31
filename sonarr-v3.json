@@ -1,7 +1,7 @@
 {
-    "name": "sonarr-v3",
+    "name": "sonarr3",
     "release": "11.2-RELEASE",
-    "artifact": "https://github.com/stefanschramek/iocage-plugin-sonarr_v3.git",
+    "artifact": "https://github.com/stefanschramek/iocage-plugin-sonarr3.git",
     "pkgs": [
         "lang/mono",
         "databases/sqlite3"
