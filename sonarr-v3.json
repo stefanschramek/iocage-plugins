@@ -3,7 +3,8 @@
     "release": "11.2-RELEASE",
     "artifact": "https://github.com/stefanschramek/iocage-plugin-sonarr_v3.git",
     "pkgs": [
-        "lang/mono"
+        "lang/mono",
+        "databases/sqlite3"
     ],
     "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
     "fingerprints": {
