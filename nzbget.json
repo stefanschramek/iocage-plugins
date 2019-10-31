@@ -1,0 +1,21 @@
+{
+  "name": "nzbget",
+  "release": "11.2-RELEASE",
+  "artifact": "https://github.com/stefanschramek/iocage-plugin-nzbget.git",
+  "pkgs": [
+    "lang/python27",
+    "archivers/p7zip",
+    "archivers/unrar",
+    "security/ca_root_nss"
+  ],
+  "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
+  "fingerprints": {
+          "iocage-plugins": [
+                  {
+                  "function": "sha256",
+                  "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+          }
+          ]
+  },
+  "official": false
+}
