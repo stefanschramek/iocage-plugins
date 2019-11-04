@@ -1,7 +1,7 @@
 {
     "name": "nginx-letsencrypt",
     "release": "11.2-RELEASE",
-    "artifact": "https://github.com/stefanschramek/iocage-plugin-sonarr3.git",
+    "artifact": "https://github.com/stefanschramek/iocage-plugin-nginx_letsencrypt.git",
     "pkgs": [
         "www/nginx",
         "security/py-certbot-nginx"
