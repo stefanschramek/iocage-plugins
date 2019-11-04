@@ -1,11 +1,10 @@
 {
-    "name": "sonarr3",
+    "name": "nginx-letsencrypt",
     "release": "11.2-RELEASE",
     "artifact": "https://github.com/stefanschramek/iocage-plugin-sonarr3.git",
     "pkgs": [
-        "databases/sqlite3",
-        "lang/mono",
-        "multimedia/mediainfo"
+        "www/nginx",
+        "security/py-certbot-nginx"
     ],
     "packagesite": "http://pkg.cdn.trueos.org/iocage/unstable",
     "fingerprints": {
