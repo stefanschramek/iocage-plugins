@@ -7,4 +7,5 @@ fetch https://raw.githubusercontent.com/stefanschramek/iocage-plugins/master/son
 ### Install plugin
 ```
 iocage fetch --plugin-file -n sonarr3.json dhcp=on vnet=on bpf=yes
+iocage fetch --plugin-name plugin_name.json -n jail_name vnet=on nat=on
 ```
