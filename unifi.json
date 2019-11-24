@@ -3,12 +3,9 @@
   "release": "11.3-RELEASE",
   "artifact": "https://github.com/stefanschramek/iocage-plugin-unifi.git",
   "properties": {
-        "nat": 1,
-        "nat_forwards": [
-          "tcp(8443:8444)",
-          "tcp(8080)"
-        ],
-    },  
+    "nat": 1,
+    "nat_forwards": "tcp(8080),tcp(8443:8444)"
+  },  
   "pkgs": [
     "unifi5"
   ],
