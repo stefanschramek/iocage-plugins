@@ -4,6 +4,7 @@
     "artifact": "https://github.com/stefanschramek/iocage-plugin-sonarr.git",
     "properties": {
         "nat": 1,
+        "nat_prefix": "172.17",
         "nat_forwards": "tcp(8989)"
     },
     "pkgs": [
