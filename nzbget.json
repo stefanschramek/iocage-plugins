@@ -8,6 +8,7 @@
   },  
   "pkgs": [
     "python27",
+    "libxslt",
     "p7zip",
     "unrar",
     "ca_root_nss"
