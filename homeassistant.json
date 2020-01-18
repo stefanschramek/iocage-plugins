@@ -9,10 +9,10 @@
         "ca_root_nss",
         "gmake",
         "pkgconf",
-        "python37",
+        "python36-3.6.9_3",
         "py37-sqlite3"
     ],
-    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "iocage-plugins": [
             {
