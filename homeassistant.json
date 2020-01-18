@@ -9,7 +9,7 @@
         "ca_root_nss",
         "gmake",
         "pkgconf",
-        "python36-3.6.9_3",
+        "python37",
         "py37-sqlite3"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
