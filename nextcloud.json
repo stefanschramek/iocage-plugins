@@ -1,0 +1,65 @@
+{
+    "name": "nextcloud",
+    "release": "11.3-RELEASE",
+    "artifact": "https://github.com/stefanschramek/iocage-plugin-nextcloud.git",
+    "properties": {
+        "dhcp": 1
+    },
+    "pkgs": [
+        "autoconf",
+        "bash",
+        "gnupg",
+        "help2man",
+        "m4",
+        "nano",
+        "p5-Locale-gettext",
+        "perl5",
+        "php73",
+        "php73-bz2",
+        "php73-ctype",
+        "php73-curl",
+        "php73-dom",
+        "php73-exif",
+        "php73-fileinfo",
+        "php73-filter",
+        "php73-ftp",
+        "php73-gd",
+        "php73-gmp",
+        "php73-hash",
+        "php73-iconv",
+        "php73-imap",
+        "php73-intl",
+        "php73-json",
+        "php73-ldap",
+        "php73-mbstring",
+        "php73-openssl",
+        "php73-pecl-APCu",
+        "php73-pecl-imagick",
+        "php73-pecl-memcache",
+        "php73-pecl-redis",
+        "php73-posix",
+        "php73-session",
+        "php73-simplexml",
+        "php73-wddx",
+        "php73-xml",
+        "php73-xmlreader",
+        "php73-xmlwriter",
+        "php73-xsl",
+        "php73-zip",
+        "php73-zlib",
+        "redis",
+        "sudo",
+        "texinfo"
+    ],
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": false,
+    "revision": "0"
+}
