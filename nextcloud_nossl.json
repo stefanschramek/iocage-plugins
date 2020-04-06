@@ -1,0 +1,68 @@
+{
+    "name": "nextcloud",
+    "release": "11.3-RELEASE",
+    "artifact": "https://github.com/stefanschramek/iocage-plugin-nextcloud_nossl.git",
+    "official": false,
+    "properties": {
+        "dhcp": 1
+    },
+    "pkgs": [
+        "autoconf",
+        "bash",
+        "caddy",
+        "gnupg",
+        "help2man",
+        "mariadb103-server",
+        "m4",
+        "p5-Locale-gettext",
+        "perl5",
+        "php73",
+        "php73-bz2",
+        "php73-ctype",
+        "php73-curl",
+        "php73-dom",
+        "php73-exif",
+        "php73-fileinfo",
+        "php73-filter",
+        "php73-ftp",
+        "php73-gd",
+        "php73-gmp",
+        "php73-hash",
+        "php73-iconv",
+        "php73-imap",
+        "php73-intl",
+        "php73-json",
+        "php73-ldap",
+        "php73-mbstring",
+        "php73-mysqli",
+        "php73-openssl",
+        "php73-pdo_mysql",
+        "php73-pecl-APCu",
+        "php73-pecl-imagick",
+        "php73-pecl-memcache",
+        "php73-pecl-redis",
+        "php73-posix",
+        "php73-session",
+        "php73-simplexml",
+        "php73-wddx",
+        "php73-xml",
+        "php73-xmlreader",
+        "php73-xmlwriter",
+        "php73-xsl",
+        "php73-zip",
+        "php73-zlib",
+        "redis",
+        "sudo",
+        "texinfo"
+    ],
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+            }
+        ]
+    },
+    "revision": "0"
+}
