@@ -1,0 +1,13 @@
+{
+    "plexmediaserver_plexpass": {
+        "MANIFEST": "plexmediaserver_plexpass.json",
+        "name": "Plex Media Server (Plex Pass)",
+        "icon": "https://www.trueos.org/iocage-icons/plex.png",
+        "description": "Media center software to easily manage and stream digital media. (Requires Plex Pass Subscription)",
+        "official": false,
+        "primary_pkg": "plexmediaserver-plexpass",
+        "category": "entertainment",
+        "maintainer": "Stefan Schramek",
+        "homepage": "https://www.plex.tv/plex-pass/"
+    }
+}
