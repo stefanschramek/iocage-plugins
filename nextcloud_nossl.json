@@ -17,6 +17,7 @@
         "p5-Locale-gettext",
         "perl5",
         "php73",
+        "php73-bcmath",
         "php73-bz2",
         "php73-ctype",
         "php73-curl",
